@@ -1,15 +1,22 @@
 {
-  "name": "watchkeep",
+  "name": "watchkeep-mmpro",
   "version": "0.0.1",
-  "description": "An NPM module to fetch and parse S3 & CloudFront logs",
-  "keywords": ["aws", "s3", "cloudfront", "logs", "log", "files"],
+  "description": "An NPM module to fetch and parse S3 & CloudFront logs based on StudioLE's work.",
+  "keywords": [
+    "aws",
+    "s3",
+    "cloudfront",
+    "logs",
+    "log",
+    "files"
+  ],
   "main": "lib/watchkeep.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/StudioLE/WatchKeep.git"
+    "url": "https://github.com/mmpro/WatchKeep.git"
   },
   "bugs": {
     "url": "https://github.com/StudioLE/WatchKeep/issues"
