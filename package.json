@@ -1,6 +1,6 @@
 {
   "name": "watchkeep-mmpro",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "An NPM module to fetch and parse S3 & CloudFront logs based on StudioLE's work.",
   "keywords": [
     "aws",
@@ -29,9 +29,9 @@
   },
   "license": "MIT",
   "dependencies": {
-    "async": "^1.5.2",
-    "aws-sdk": "^2.2.33",
-    "moment": "^2.10.2",
+    "async": "^2.1.4",
+    "aws-sdk": "^2.7.20",
+    "moment": "^2.17.1",
     "split": "^1.0.0"
   }
 }

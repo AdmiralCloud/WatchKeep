@@ -1,17 +1,17 @@
-var s3Config = {
+let s3Config = {
   'key': 'YOUR_AWS_ACCESS_KEY_ID',
   'secret': 'YOUR_AWS_SECRET_KEY_ID'
 }
 
 // For CloudFront logs
-var logConfig = {
+let logConfig = {
   bucket: 'YOUR_S3_LOG_BUCKET',
   prefix: 'path/to/logs/DISTRIBUTION_ID.',
   format: 'cloudfront'
 }
 
 // For S3 logs
-var logConfig = {
+let logConfig = {
   bucket: 'YOUR_S3_LOG_BUCKET',
   prefix: 'path/to/logs/',
   format: 's3'
@@ -19,9 +19,9 @@ var logConfig = {
 
 watchkeep = require('watchkeep')(s3Config, logConfig)
 
-var params = {
+let params = {
   // Optional date filter
-  date: '2015-04',
+  date: '2017-01',
   // Optional array of paths to ignore
   exclude: [
     'path/to/logs/DISTRIBUTION_ID.2015-04-10-11.abcdefgh.gz',
