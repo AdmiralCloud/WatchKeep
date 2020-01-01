@@ -1,6 +1,6 @@
 {
   "name": "watchkeep-mmpro",
-  "version": "0.1.6",
+  "version": "0.1.7",
   "description": "An NPM module to fetch and parse S3 & CloudFront logs based on StudioLE's work.",
   "keywords": [
     "aws",
@@ -12,7 +12,8 @@
   ],
   "main": "lib/watchkeep.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "./node_modules/eslint/bin/eslint.js lib/*"
   },
   "repository": {
     "type": "git",
@@ -34,5 +35,8 @@
     "lodash": "^4.17.15",
     "moment": "^2.24.0",
     "split": "^1.0.1"
+  },
+  "devDependencies": {
+    "eslint": "^6.8.0"
   }
 }
